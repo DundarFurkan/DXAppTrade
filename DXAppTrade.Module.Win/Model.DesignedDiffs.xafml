@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="DXAppTrade.Module.BusinessObjects.ORMDataModel1.EquityTest" ImageName="ChartStackedLine" />
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="21.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

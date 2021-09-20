@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="DXAppTrade">
+  <BOModel>
+    <Class Name="DXAppTrade.Module.BusinessObjects.ORMDataModel1.EquityTest" ImageName="ChartType_Line3D" />
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="EquityTest_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="EquityTest">
+              <LayoutItem Id="Name" ViewItem="Name" />
+              <LayoutItem Id="LastPrice" ViewItem="LastPrice" />
+              <LayoutItem Id="PercentageChange" ViewItem="PercentageChange" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject">
+              <LayoutItem Id="Oid" ViewItem="Oid" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Prices_Group">
+            <LayoutItem Id="Prices" ViewItem="Prices" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Equity_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="PercentageChange" Width="193" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

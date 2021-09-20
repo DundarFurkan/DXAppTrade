@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <CreatableItems Id="CreatableItems">
+    <CreatableItem ClassName="DXAppTrade.Module.BusinessObjects.ORMDataModel1.Equity" Index="0" />
+  </CreatableItems>
+</Application>

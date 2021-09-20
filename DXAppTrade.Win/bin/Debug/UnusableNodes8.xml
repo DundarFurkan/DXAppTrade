@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="EquityTest.Complete" QuickAccess="False" />
+    </Actions>
+  </ActionDesign>
+  <Views Id="Views">
+    <ListView Id="EquityTest_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="IsCompleted" Width="60" />
+        <ColumnInfo Id="Deadline" Width="266" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

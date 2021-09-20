@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8abad56d-cb94-4afe-b845-ff7cf6c7d71e" namespace="DXAppTrade.Module.BusinessObjects.ORMDataModel1" dataBaseShemaInfo="H4sIAAAAAAAEAOVY224bNxB9D5B/EPxsSrwvGawVJLKTBk1TI3aKvvIytBdd7bp7sZ2/76wkK5bttC6symj7IizPzIhzyOHMkPnr63k5uoSmLerqYI+N6d7r6csX+VvXwklXN+4MPlSpHqFW1b66bouDvfOuu3g1mVxdXY2vxLhuziacUjb59aePJ+Ec5o4UVdu5KsDe2ir+tdUezjoa5afOl9AOUy7GN8gt4Ab65OYwPfq9L7qv+eQbslY6qgZs2jU95JPVYC08LNoB+HIRXQfT5MoWlTbBte77vogf4tQ6HljQQFzwgUhqIvEZBWI4hxQDT0bjf6yU18azuuznVbvh/3dhFAwclsLp8JlPbgEbin9G7+9SvE0zRtA2qkCMNZLIJCNxIkjkajWNLhkH/h5NNJ88gelH13bHTRGega5XivvkEpFWUSINp8SqaInzJjnNvcxi2DbdY2gCVB0erd3zpYpKnWIiTDBHpKOeeGc4CZoyo6wE4cw/x3d27qrnYM1soEC9IZQzS6TWeHa948RIJcEIl2lBH836IXSVgR6dt1bRvoO0pSJVmhlDmKacSIa7bqLEDXdJ8piUdJ5vNW39fAHV7nc4SYbBnBwBCniYA7XEZj7ij6Ha8IxrwbYd17Oybp8hmHkWjaZgiFIhw5Rlh2COghgvo9IyJMfc1jN0fbV7opZhPg5GkOS9wlObMuJjpkjGE1gvjAvyfsV9ItEfirPz3TPV0ZiQlCIhWMzKyklitc0IYLkNQWQ0SLttpofozO6Zihh9DDESoSS2F1ZnxHqFnIWNJmquk9p6e7FsEk+h7XbP10AwPCJLJhxWHi4wJXEhCPUhcKWyEODx/cU2Ks/txdhB+cm4AiE4kBiVJ9JjZA/MSYoWLJXBmaD/A10zUJF5pwXxygxVFmuQGdpIj510AhDRy/s0/71ds1LK4HXHEZUwliVLBlupgMU380CDMom7+03FE+m+Wzq38yKEDXPU1BHkxYiUGV4Ak/Qk0zrZDGKkVG6dagFlZP8Prs9/OeCe4T3eMuI0NlVSC0VsCIZoE7mU0iHrtNUUvRp/U8mHlxaIx00dFuBosoR/WT7LTA/h8uj6ooG2HWPVduNLzsZsf7QSHwyjsRrT/dGsL7u+gYMK+q5x5f7ouPdlEX6Er6f1b1AdeGMiy5SMGaUgLbaJN1Ms5puVrm2hHTbgc79e3fxNRNcgFdcrv5bQSZ82oM8wry/hruISvas7cy1Mv1RhseMR12wYL5fmIR9yXJkLaLrimX37jhv5e6igwfCa1fM5xnK7itF78IbyIbTFGX6+KzAU7lhsyhZmh1BCB2/atg6F63DLbmweECwMPvVlOYTZWzh3l0XdYBQlh/GBB+yu5OWLfHLnwW/6B+U0dssZFAAA" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="21.1.5.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="21.1.5.0" name="ORMDataModel1" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="387ef9a9-0833-4483-b976-391e88daeca7">
+      <xpObject Id="5d056188-1602-411a-8d42-caf42df54ab2" name="Price" baseClass="XPObject" userFileName="Price" designerFileName="Price.Designer" className="Price" virtualName="Price">
+        <fields>
+          <generalXpObjectHasFields Id="764ee839-326c-40a8-99cf-f8c922328ea2">
+            <field Id="f414a0fa-e0ef-4c09-97bd-978068272631" name="Open" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bfc80d0e-c66f-44cd-8d03-7d2d2fe5404d">
+            <field Id="27d860e8-55c7-489d-bbd3-8b4d564cfa1a" name="Close" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="da3ddff1-5bdd-43cd-8fd7-20b2c13180f8">
+            <field Id="91482c83-fbb5-46f7-bd75-72fe9b38ac4e" name="Low" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="32e78b44-3845-4aa0-bd8e-a5f1fdf464f0">
+            <field Id="6d88cf55-cc9a-45a4-9697-ef8acc370c49" name="High" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="66a2e4e9-136a-4720-a69d-627fb03375a4">
+            <field Id="3ddbdcdd-3544-4967-9b5a-439d8d626f5b" name="Date" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" defaultValue="String#17.09.2021 00:00:00" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a0e8ce83-5102-45c0-9d7f-d04f4277dec6">
+            <field Id="8ec82d67-13a9-423d-9233-0bcc2557ccec" name="EquityTest" virtualColumnType="EquityTest" logicalType="EquityTest" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="bcc567e1-8727-49a5-9a76-33445d40131c">
+      <xpObject Id="725e332e-dd5b-4ba4-bcc2-fd9e904ca8c6" name="EquityTest" baseClass="XPObject" userFileName="EquityTest" designerFileName="EquityTest.Designer" className="EquityTest" virtualName="EquityTest">
+        <fields>
+          <generalXpObjectHasFields Id="3a20e0a7-4027-48ba-bbae-3049963b492a">
+            <field Id="e037ba63-b582-41ef-85d9-bd5cfee3db46" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1391ef51-a86b-4839-a3df-ecad0a28f7d3">
+            <field Id="555886ea-5f33-41f8-84ca-e7be0c58f2a2" name="LastPrice" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="acd8c929-0002-4f89-877d-fc63b4f1a42a">
+            <field Id="2b170e91-a6e8-4635-9cc8-68d2444ad00f" name="PercentageChange" columnType="Double" virtualColumnType="Double" nonPersistent="true" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="aebd2604-f1e8-4022-9a2e-31120c16ffd0" sourceCollectionName="Prices" name="PriceReferencesEquityTest" targetFieldName="EquityTest">
+            <xpObjectMoniker Id="5d056188-1602-411a-8d42-caf42df54ab2" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="f2a9a2f8-aa7b-4a10-976f-20c42da341cf">
+            <collectionField Id="bb127f26-191e-4888-a9b1-b655daf4ce46" name="Prices" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
